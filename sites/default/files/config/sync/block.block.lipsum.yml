@@ -1,0 +1,31 @@
+uuid: 739232ff-5281-484e-8b96-9b734c247f29
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c9343d5e-02ff-4eb9-8d9f-bf3273823407'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupal8_zymphonies_theme
+id: lipsum
+theme: drupal8_zymphonies_theme
+region: footer_menu
+weight: -13
+provider: null
+plugin: 'block_content:c9343d5e-02ff-4eb9-8d9f-bf3273823407'
+settings:
+  id: 'block_content:c9343d5e-02ff-4eb9-8d9f-bf3273823407'
+  label: lipsum
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

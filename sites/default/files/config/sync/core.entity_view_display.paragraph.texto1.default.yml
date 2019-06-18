@@ -1,0 +1,34 @@
+uuid: e245d10b-9026-430f-9e30-537bae1ac9ef
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto1.field_imagen
+    - field.field.paragraph.texto1.field_texto
+    - image.style.max_325x325
+    - paragraphs.paragraphs_type.texto1
+  module:
+    - image
+    - text
+id: paragraph.texto1.default
+targetEntityType: paragraph
+bundle: texto1
+mode: default
+content:
+  field_imagen:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: max_325x325
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_texto:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

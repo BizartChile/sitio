@@ -1,0 +1,26 @@
+uuid: acdb78ee-edf8-4e3e-904d-77bbc87b0e86
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto.field_texto
+    - paragraphs.paragraphs_type.texto
+  module:
+    - text
+id: paragraph.texto.default
+targetEntityType: paragraph
+bundle: texto
+mode: default
+content:
+  field_texto:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

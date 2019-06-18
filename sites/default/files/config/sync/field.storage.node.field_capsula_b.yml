@@ -1,0 +1,19 @@
+uuid: bfeee098-7ecf-41d3-9a6f-9559493ea7f1
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_capsula_b
+field_name: field_capsula_b
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

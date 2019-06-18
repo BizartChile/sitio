@@ -1,0 +1,10 @@
+uuid: e09d9704-67fa-4c11-81b6-c26557d29a85
+langcode: es
+status: true
+dependencies: {  }
+id: admin
+label: Admin
+weight: 3
+is_admin: null
+permissions:
+  - 'manage easy meta'

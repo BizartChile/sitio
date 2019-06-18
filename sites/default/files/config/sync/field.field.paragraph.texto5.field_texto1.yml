@@ -1,0 +1,21 @@
+uuid: 0ba53a8e-ee80-4864-8bad-d491ab911975
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto1
+    - paragraphs.paragraphs_type.texto5
+  module:
+    - text
+id: paragraph.texto5.field_texto1
+field_name: field_texto1
+entity_type: paragraph
+bundle: texto5
+label: Texto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

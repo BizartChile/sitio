@@ -1,0 +1,27 @@
+uuid: 4b1fa0e0-5aba-4e5e-8b03-c77cc57583cf
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.panel.body
+    - node.type.panel
+  module:
+    - text
+    - user
+id: node.panel.default
+targetEntityType: node
+bundle: panel
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

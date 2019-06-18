@@ -1,0 +1,11 @@
+uuid: c526686d-5f4e-4b8b-ab8e-18cd664b2725
+langcode: es
+status: true
+dependencies: {  }
+name: 'Solución o Servicio'
+type: solucion_o_servicio
+description: 'Solución o servicio.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

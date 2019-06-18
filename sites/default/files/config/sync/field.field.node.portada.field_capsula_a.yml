@@ -1,0 +1,21 @@
+uuid: d8fed297-721f-4600-a685-3caacb7adcdb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_capsula_a
+    - node.type.portada
+  module:
+    - text
+id: node.portada.field_capsula_a
+field_name: field_capsula_a
+entity_type: node
+bundle: portada
+label: 'Cápsula A'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

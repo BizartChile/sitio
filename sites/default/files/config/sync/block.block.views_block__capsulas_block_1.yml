@@ -1,0 +1,24 @@
+uuid: dbec5fbd-0ead-4f87-ad4a-d8e861f03bf3
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.capsulas
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__capsulas_block_1
+theme: drupal8_zymphonies_theme
+region: topwidget_first
+weight: 0
+provider: null
+plugin: 'views_block:capsulas-block_1'
+settings:
+  id: 'views_block:capsulas-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

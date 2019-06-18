@@ -1,0 +1,35 @@
+uuid: d206d5fc-9a75-4e17-8b42-cf3bfb1a42f2
+langcode: es
+status: true
+dependencies: {  }
+id: usuario_ingresa
+label: 'Usuario ingresa'
+events:
+  -
+    event_name: rules_user_login
+description: ''
+tags:
+  - ''
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: 856c444d-ecc8-4686-9777-4541738aec69
+  conditions:
+    id: rules_and
+    uuid: 690152b5-7d0f-4977-9997-ba4ccee477b6
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: 610a668d-d156-4fec-b9eb-7bc23f607356
+    actions:
+      -
+        id: rules_action
+        uuid: a51e2b6b-91af-43a2-9dc1-60a4d79fc7f6
+        context_values:
+          url: /panel
+        context_mapping: {  }
+        context_processors:
+          url:
+            rules_tokens: {  }
+        provides_mapping: {  }
+        action_id: rules_page_redirect

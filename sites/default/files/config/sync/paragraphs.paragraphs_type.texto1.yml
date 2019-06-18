@@ -1,0 +1,9 @@
+uuid: 46efaa61-557b-469f-8f22-4392e9af849f
+langcode: es
+status: true
+dependencies: {  }
+id: texto1
+label: Texto1
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

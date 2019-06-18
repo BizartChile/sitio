@@ -1,0 +1,24 @@
+uuid: 64644af4-13c2-412c-8eed-90a2a0caedfd
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.recomendamos_footer
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__recomendamos_footer_block_2
+theme: drupal8_zymphonies_theme
+region: panelb
+weight: -13
+provider: null
+plugin: 'views_block:recomendamos_footer-block_2'
+settings:
+  id: 'views_block:recomendamos_footer-block_2'
+  label: Recomendamos
+  provider: views
+  label_display: '0'
+  views_label: Recomendamos
+  items_per_page: none
+visibility: {  }

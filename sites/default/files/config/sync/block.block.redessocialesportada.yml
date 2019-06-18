@@ -1,0 +1,25 @@
+uuid: a592c70b-7893-47a7-a73c-373fd44300a3
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:525839af-de2f-4375-964c-8d0e9e06ead8'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: redessocialesportada
+theme: drupal8_zymphonies_theme
+region: welcome_banner_text
+weight: 0
+provider: null
+plugin: 'block_content:525839af-de2f-4375-964c-8d0e9e06ead8'
+settings:
+  id: 'block_content:525839af-de2f-4375-964c-8d0e9e06ead8'
+  label: 'Redes sociales portada'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

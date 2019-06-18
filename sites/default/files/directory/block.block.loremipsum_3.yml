@@ -1,0 +1,25 @@
+uuid: f0972f2c-ad81-4b78-adec-d8c05a2b9de9
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:772336b9-e151-4cda-bacb-2f1636da6478'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: loremipsum_3
+theme: drupal8_zymphonies_theme
+region: bottom_third
+weight: -13
+provider: null
+plugin: 'block_content:772336b9-e151-4cda-bacb-2f1636da6478'
+settings:
+  id: 'block_content:772336b9-e151-4cda-bacb-2f1636da6478'
+  label: 'Lorem ipsum'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

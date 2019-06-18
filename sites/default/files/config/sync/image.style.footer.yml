@@ -1,0 +1,14 @@
+uuid: 3207b7d9-47d6-479b-863d-98b82ecb942c
+langcode: es
+status: true
+dependencies: {  }
+name: footer
+label: Footer
+effects:
+  649fc8fa-5734-43b2-9979-f2b37399ea02:
+    uuid: 649fc8fa-5734-43b2-9979-f2b37399ea02
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 330
+      height: 180

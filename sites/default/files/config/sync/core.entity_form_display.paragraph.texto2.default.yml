@@ -1,0 +1,37 @@
+uuid: 47eca5a6-ec93-4caa-9707-6f6967b765f4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto2.field_imagen
+    - field.field.paragraph.texto2.field_texto
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.texto2
+  module:
+    - image
+    - text
+id: paragraph.texto2.default
+targetEntityType: paragraph
+bundle: texto2
+mode: default
+content:
+  field_imagen:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_texto:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

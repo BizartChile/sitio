@@ -1,0 +1,21 @@
+uuid: 721ffa36-9165-4713-bf9c-9776758a2050
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bajada
+    - node.type.solucion_o_servicio
+  module:
+    - text
+id: node.solucion_o_servicio.field_bajada
+field_name: field_bajada
+entity_type: node
+bundle: solucion_o_servicio
+label: Bajada
+description: 'Texto de resumen, el cuál se desplegará en diversos lugares del sitio web.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

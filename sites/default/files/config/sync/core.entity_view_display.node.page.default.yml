@@ -1,0 +1,35 @@
+uuid: 5094e8af-3e59-4ab0-93b3-4ab4c71734c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.page.field_bajada
+    - field.field.node.page.field_parrafos
+    - node.type.page
+  module:
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  field_parrafos:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_bajada: true
+  langcode: true

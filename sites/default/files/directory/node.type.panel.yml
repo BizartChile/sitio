@@ -1,0 +1,11 @@
+uuid: b1b37734-967a-4873-8892-55223b8be6d9
+langcode: es
+status: true
+dependencies: {  }
+name: Panel
+type: panel
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

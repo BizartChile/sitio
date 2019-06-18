@@ -1,0 +1,25 @@
+uuid: 3359b871-dff6-470d-892a-5b9efabc5b2c
+langcode: es
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:e51b7517-73ca-4d30-90d4-31cc59ddbe6d'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: contactenos
+theme: drupal8_zymphonies_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:e51b7517-73ca-4d30-90d4-31cc59ddbe6d'
+settings:
+  id: 'block_content:e51b7517-73ca-4d30-90d4-31cc59ddbe6d'
+  label: Contáctenos
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

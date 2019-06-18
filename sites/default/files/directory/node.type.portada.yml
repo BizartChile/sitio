@@ -1,0 +1,11 @@
+uuid: 9461080c-37d5-415f-bb5b-8d6b9c9afe4b
+langcode: es
+status: true
+dependencies: {  }
+name: Portada
+type: portada
+description: 'Portada del sitio'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

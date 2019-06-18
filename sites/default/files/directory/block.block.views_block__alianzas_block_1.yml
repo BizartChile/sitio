@@ -1,0 +1,24 @@
+uuid: 824408be-1a34-4d9c-bcd9-18eafc23e881
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.alianzas
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__alianzas_block_1
+theme: drupal8_zymphonies_theme
+region: alianza1
+weight: 0
+provider: null
+plugin: 'views_block:alianzas-block_1'
+settings:
+  id: 'views_block:alianzas-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

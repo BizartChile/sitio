@@ -1,0 +1,21 @@
+uuid: 7d3954d9-07a2-45fd-b388-4bc114b9c9cc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bajada
+    - node.type.article
+  module:
+    - text
+id: node.article.field_bajada
+field_name: field_bajada
+entity_type: node
+bundle: article
+label: Bajada
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

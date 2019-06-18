@@ -1,0 +1,25 @@
+uuid: d590c18b-7f75-40f1-903a-e41408de047c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.archivo.field_archivo
+    - paragraphs.paragraphs_type.archivo
+  module:
+    - file
+id: paragraph.archivo.default
+targetEntityType: paragraph
+bundle: archivo
+mode: default
+content:
+  field_archivo:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

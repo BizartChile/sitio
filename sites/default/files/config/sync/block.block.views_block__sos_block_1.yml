@@ -1,0 +1,24 @@
+uuid: f2d978ab-2a1f-4ab8-8690-4d2afa864d0a
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.sos
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__sos_block_1
+theme: drupal8_zymphonies_theme
+region: bottom_second
+weight: 0
+provider: null
+plugin: 'views_block:sos-block_1'
+settings:
+  id: 'views_block:sos-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

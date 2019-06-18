@@ -1,0 +1,21 @@
+uuid: 5e0ee63c-87bf-49fe-845f-898e06404402
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texto_alianza_3
+    - node.type.portada
+  module:
+    - text
+id: node.portada.field_texto_alianza_3
+field_name: field_texto_alianza_3
+entity_type: node
+bundle: portada
+label: 'Texto alianza 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

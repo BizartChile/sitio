@@ -1,0 +1,19 @@
+uuid: 2a333a93-17b8-4d8b-b6b0-c10a32a195dd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texto_boton
+    - node.type.article
+id: node.article.field_texto_boton
+field_name: field_texto_boton
+entity_type: node
+bundle: article
+label: 'Texto del botón'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

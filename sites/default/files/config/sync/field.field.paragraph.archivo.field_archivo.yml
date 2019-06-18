@@ -1,0 +1,27 @@
+uuid: 455be2df-8736-4816-8633-4d96f91cd1f6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_archivo
+    - paragraphs.paragraphs_type.archivo
+  module:
+    - file
+id: paragraph.archivo.field_archivo
+field_name: field_archivo
+entity_type: paragraph
+bundle: archivo
+label: Archivo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf doc ppt xls'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

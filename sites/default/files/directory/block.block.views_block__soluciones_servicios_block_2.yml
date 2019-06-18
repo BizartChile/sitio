@@ -1,0 +1,24 @@
+uuid: e0686b9c-fb5d-4575-8cd9-42e14f8f20f7
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.soluciones_servicios
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__soluciones_servicios_block_2
+theme: drupal8_zymphonies_theme
+region: panelb
+weight: -12
+provider: null
+plugin: 'views_block:soluciones_servicios-block_2'
+settings:
+  id: 'views_block:soluciones_servicios-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

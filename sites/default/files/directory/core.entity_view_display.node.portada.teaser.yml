@@ -1,0 +1,37 @@
+uuid: 3605a503-0b9e-46f4-ba69-6334387d1600
+langcode: es
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.portada.field_bajada
+    - field.field.node.portada.field_capsula_a
+    - field.field.node.portada.field_capsula_b
+    - field.field.node.portada.field_imagen_alianza_1
+    - field.field.node.portada.field_imagen_alianza_2
+    - field.field.node.portada.field_imagen_alianza_3
+    - field.field.node.portada.field_texto_alianza_1
+    - field.field.node.portada.field_texto_alianza_2
+    - field.field.node.portada.field_texto_alianza_3
+    - node.type.portada
+  module:
+    - user
+id: node.portada.teaser
+targetEntityType: node
+bundle: portada
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_bajada: true
+  field_capsula_a: true
+  field_capsula_b: true
+  field_imagen_alianza_1: true
+  field_imagen_alianza_2: true
+  field_imagen_alianza_3: true
+  field_texto_alianza_1: true
+  field_texto_alianza_2: true
+  field_texto_alianza_3: true
+  langcode: true

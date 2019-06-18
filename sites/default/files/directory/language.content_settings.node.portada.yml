@@ -1,0 +1,11 @@
+uuid: 1f6b6d84-e0c1-4b3b-9b12-c7595ac5ab54
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.portada
+id: node.portada
+target_entity_type_id: node
+target_bundle: portada
+default_langcode: site_default
+language_alterable: false

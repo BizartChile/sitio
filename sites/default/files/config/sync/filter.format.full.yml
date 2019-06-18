@@ -1,0 +1,8 @@
+uuid: 285f3f1d-61f9-441b-b63e-d006c4e18796
+langcode: es
+status: true
+dependencies: {  }
+name: Full
+format: full
+weight: 0
+filters: {  }

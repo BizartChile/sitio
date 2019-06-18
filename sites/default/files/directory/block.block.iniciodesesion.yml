@@ -1,0 +1,20 @@
+uuid: ade43ff7-8ada-4715-85ab-cb3f6708b219
+langcode: es
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - drupal8_zymphonies_theme
+id: iniciodesesion
+theme: drupal8_zymphonies_theme
+region: panel
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Inicio de sesión'
+  provider: user
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: a581d402-1963-4f62-a65b-ac1330a44133
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.portada
+id: node.portada.promote
+field_name: promote
+entity_type: node
+bundle: portada
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

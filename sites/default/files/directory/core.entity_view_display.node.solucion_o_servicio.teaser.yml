@@ -1,0 +1,25 @@
+uuid: 8f3da070-f3fc-4bd1-a8ff-b08c6db2b429
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.solucion_o_servicio.field_bajada
+    - field.field.node.solucion_o_servicio.field_image
+    - field.field.node.solucion_o_servicio.field_parrafos
+    - node.type.solucion_o_servicio
+  module:
+    - user
+id: node.solucion_o_servicio.teaser
+targetEntityType: node
+bundle: solucion_o_servicio
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_bajada: true
+  field_image: true
+  field_parrafos: true
+  langcode: true

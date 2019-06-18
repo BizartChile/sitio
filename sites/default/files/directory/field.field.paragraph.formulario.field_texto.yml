@@ -1,0 +1,21 @@
+uuid: e4016693-3904-4d81-a0bf-5f853f4a74e8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto
+    - paragraphs.paragraphs_type.formulario
+  module:
+    - text
+id: paragraph.formulario.field_texto
+field_name: field_texto
+entity_type: paragraph
+bundle: formulario
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

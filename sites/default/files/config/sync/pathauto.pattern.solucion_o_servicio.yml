@@ -1,0 +1,22 @@
+uuid: 37e922e7-7703-49f3-8495-d244f0c62ab2
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: solucion_o_servicio
+label: 'Solución o servicio'
+type: 'canonical_entities:node'
+pattern: '/[node:field_categoria]/[node:title]'
+selection_criteria:
+  f6a15301-c84f-4f0f-9c0e-2dbc957f8f71:
+    id: node_type
+    bundles:
+      solucion_o_servicio: solucion_o_servicio
+    negate: false
+    context_mapping:
+      node: node
+    uuid: f6a15301-c84f-4f0f-9c0e-2dbc957f8f71
+selection_logic: and
+weight: -5
+relationships: {  }

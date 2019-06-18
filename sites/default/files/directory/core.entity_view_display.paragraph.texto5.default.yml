@@ -1,0 +1,30 @@
+uuid: 37c8d8f8-97fe-4c14-97f3-4896743a6e94
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto5.field_texto
+    - field.field.paragraph.texto5.field_texto1
+    - paragraphs.paragraphs_type.texto5
+  module:
+    - text
+id: paragraph.texto5.default
+targetEntityType: paragraph
+bundle: texto5
+mode: default
+content:
+  field_texto:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_texto1:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

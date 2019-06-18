@@ -1,0 +1,9 @@
+uuid: 24e29bc1-6f2e-454b-8166-0a52b25c54b1
+langcode: es
+status: true
+dependencies: {  }
+id: archivo
+label: Archivo
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

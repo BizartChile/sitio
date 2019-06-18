@@ -1,0 +1,37 @@
+uuid: 41ea80dc-1baa-43d2-b75e-bb67d4205993
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.solucion_o_servicio.field_bajada
+    - field.field.node.solucion_o_servicio.field_categoria
+    - field.field.node.solucion_o_servicio.field_image
+    - field.field.node.solucion_o_servicio.field_parrafos
+    - node.type.solucion_o_servicio
+  module:
+    - entity_reference_revisions
+    - user
+id: node.solucion_o_servicio.default
+targetEntityType: node
+bundle: solucion_o_servicio
+mode: default
+content:
+  field_parrafos:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_bajada: true
+  field_categoria: true
+  field_image: true
+  langcode: true

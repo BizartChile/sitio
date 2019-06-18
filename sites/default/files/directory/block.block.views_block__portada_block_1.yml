@@ -1,0 +1,24 @@
+uuid: 12139928-10c3-4d60-87ba-8d3a2a329de2
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.portada
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__portada_block_1
+theme: drupal8_zymphonies_theme
+region: welcome_banner_text
+weight: -11
+provider: null
+plugin: 'views_block:portada-block_1'
+settings:
+  id: 'views_block:portada-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

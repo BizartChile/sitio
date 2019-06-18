@@ -1,0 +1,19 @@
+uuid: 831c6669-36bb-4ea4-b5d1-28add3c9b976
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_capsula_c
+field_name: field_capsula_c
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

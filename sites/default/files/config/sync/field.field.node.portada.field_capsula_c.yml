@@ -1,0 +1,21 @@
+uuid: 5c2ece38-568e-4da9-b11d-bb27ebf924ef
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_capsula_c
+    - node.type.portada
+  module:
+    - text
+id: node.portada.field_capsula_c
+field_name: field_capsula_c
+entity_type: node
+bundle: portada
+label: 'Cápsula C'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

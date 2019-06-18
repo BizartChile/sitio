@@ -1,0 +1,9 @@
+uuid: fd462633-dc52-4317-9176-0446f5244371
+langcode: es
+status: true
+dependencies: {  }
+id: formulario
+label: Formulario
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,22 @@
+uuid: b16be408-8622-4837-8e58-2b32fc0b647d
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: articulos_recomendamos
+label: 'Artículos - Recomendamos'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  028c1e79-416b-4143-8f2f-3d7aa26d57e1:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 028c1e79-416b-4143-8f2f-3d7aa26d57e1
+selection_logic: and
+weight: -5
+relationships: {  }

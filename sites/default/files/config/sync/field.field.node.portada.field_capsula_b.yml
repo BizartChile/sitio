@@ -1,0 +1,21 @@
+uuid: caace4c0-a777-440f-a581-b160fcab4a44
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_capsula_b
+    - node.type.portada
+  module:
+    - text
+id: node.portada.field_capsula_b
+field_name: field_capsula_b
+entity_type: node
+bundle: portada
+label: 'Cápsula B'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

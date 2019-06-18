@@ -1,0 +1,38 @@
+uuid: 77939a58-38a2-4da9-aae7-e33bc20f200d
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Usuario autenticado'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'create article content'
+  - 'create solucion_o_servicio content'
+  - 'delete any article content'
+  - 'delete any solucion_o_servicio content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own solucion_o_servicio content'
+  - 'delete solucion_o_servicio revisions'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any portada content'
+  - 'edit any solucion_o_servicio content'
+  - 'edit own article content'
+  - 'edit own solucion_o_servicio content'
+  - 'post comments'
+  - 'revert article revisions'
+  - 'revert solucion_o_servicio revisions'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view solucion_o_servicio revisions'
+  - 'view the administration theme'

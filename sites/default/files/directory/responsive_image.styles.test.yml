@@ -1,0 +1,11 @@
+uuid: ee50a2a1-8589-4444-80d9-122ec57a53cd
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.thumbnail
+id: test
+label: test
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: thumbnail

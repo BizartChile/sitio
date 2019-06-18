@@ -1,0 +1,10 @@
+uuid: db551e73-78d0-4dab-ad8b-e497c054cf61
+langcode: es
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Comodín
+targetEntityType: user
+cache: true

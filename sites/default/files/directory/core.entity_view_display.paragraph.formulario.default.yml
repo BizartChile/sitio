@@ -1,0 +1,32 @@
+uuid: 3d9a0ba5-9368-4b45-a2d6-063faa4063d9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.formulario.field_formulario
+    - field.field.paragraph.formulario.field_texto
+    - paragraphs.paragraphs_type.formulario
+  module:
+    - text
+    - webform
+id: paragraph.formulario.default
+targetEntityType: paragraph
+bundle: formulario
+mode: default
+content:
+  field_formulario:
+    weight: 0
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  field_texto:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

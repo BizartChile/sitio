@@ -1,0 +1,66 @@
+uuid: 4f094983-e011-4786-9974-0e8fc631094f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parrafos
+    - node.type.article
+    - paragraphs.paragraphs_type.formulario
+    - paragraphs.paragraphs_type.texto
+    - paragraphs.paragraphs_type.texto1
+    - paragraphs.paragraphs_type.texto2
+    - paragraphs.paragraphs_type.texto3
+    - paragraphs.paragraphs_type.texto4
+    - paragraphs.paragraphs_type.texto5
+    - paragraphs.paragraphs_type.video
+  module:
+    - entity_reference_revisions
+id: node.article.field_parrafos
+field_name: field_parrafos
+entity_type: node
+bundle: article
+label: Párrafos
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      texto: texto
+      texto1: texto1
+      formulario: formulario
+      texto2: texto2
+      texto3: texto3
+      texto4: texto4
+      texto5: texto5
+      video: video
+    target_bundles_drag_drop:
+      texto:
+        enabled: true
+        weight: 8
+      texto1:
+        enabled: true
+        weight: 9
+      formulario:
+        enabled: true
+        weight: 9
+      texto2:
+        enabled: true
+        weight: 10
+      texto3:
+        enabled: true
+        weight: 11
+      texto4:
+        enabled: true
+        weight: 12
+      texto5:
+        enabled: true
+        weight: 13
+      video:
+        enabled: true
+        weight: 14
+field_type: entity_reference_revisions
